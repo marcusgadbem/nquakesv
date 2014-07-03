@@ -1,0 +1,4 @@
+[Thu Jul 03, 16:30:49 2014].[1] connect\player\1\189.122.229.249\0.0.0.0\31081\rate\9999\*client\ezQuake 3707\noaim\1\msg\1\name\player
+[Thu Jul 03, 16:31:10 2014].[1] disconnect\player\1\189.122.229.249\0.0.0.0\31081\chat\1\*is\1\emodel\6967\pmodel\33168\rate\9999\*client\ezQuake 3707\noaim\1\msg\1\name\player
+[Thu Jul 03, 17:37:47 2014].[1] connect\AL.Kernell\3\189.27.149.20\0.0.0.0\31081\*mm\4\*client\ezQuake 666\b_switch\5\w_switch\2\bottomcolor\13\topcolor\11\noaim\1\msg\1\name\AL.Kernell\rate\25000\team\al
+[Thu Jul 03, 17:37:58 2014].[1] disconnect\AL.Kernell\3\189.27.149.20\0.0.0.0\31081\chat\1\*is\1\emodel\6967\pmodel\33168\*mm\4\*client\ezQuake 666\b_switch\5\w_switch\2\bottomcolor\13\topcolor\11\noaim\1\msg\1\name\AL.Kernell\rate\25000\team\al
