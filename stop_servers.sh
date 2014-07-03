@@ -1,9 +1,15 @@
 #!/bin/bash
 
-# Kill 28501
-pid=`ps ax | grep -v grep | grep "/bin/sh ./run/port1.sh" | awk '{print $1}'`
+# Kill KTX 28501
+pid=`ps ax | grep -v grep | grep "/bin/sh ./run/ktx.sh" | awk '{print $1}'`
 if [ "$pid" != "" ]; then kill -9 $pid; fi;
-pid=`ps ax | grep -v grep | grep "mvdsv -port 28501" | awk '{print $1}'`
+
+# Kill Team Fortress 27500
+pid=`ps ax | grep -v grep | grep "/bin/sh ./run/tf_pub.sh" | awk '{print $1}'`
+if [ "$pid" != "" ]; then kill -9 $pid; fi;
+
+# Kill Team Fortress 27501
+pid=`ps ax | grep -v grep | grep "/bin/sh ./run/tf_priv.sh" | awk '{print $1}'`
 if [ "$pid" != "" ]; then kill -9 $pid; fi;
 
 # Kill QWFWD
